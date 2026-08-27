@@ -138,11 +138,43 @@
   .name-note {
     font-size: 13.5px;
     color: var(--ink-faint);
-    margin: 0 0 24px;
+    margin: 0 0 20px;
   }
   .name-note b {
     color: var(--ink-soft);
     font-weight: 600;
+  }
+
+  .claim {
+    position: relative;
+    margin: 0 0 6px;
+    padding: 14px 18px;
+    border-left: 3px solid var(--brand);
+    background: var(--brand-tint);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    font-size: clamp(17px, 1.7vw, 20px);
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--ink);
+    max-width: 34em;
+    word-break: keep-all;
+    text-wrap: balance;
+  }
+  .claim .nb {
+    white-space: nowrap;
+  }
+  .claim .big {
+    font-family: "Jua", "IBM Plex Sans KR", sans-serif;
+    font-weight: 400;
+    color: var(--brand);
+    font-size: 1.18em;
+    letter-spacing: -0.01em;
+  }
+  .claim-note {
+    font-size: 12.5px;
+    color: var(--ink-faint);
+    margin: 0 0 22px;
+    padding-left: 21px;
   }
 
   h2 {
@@ -843,6 +875,8 @@
       <h1 class="wordmark">젠트리머</h1>
       <p class="tagline">유전자를 다듬어, 이름을 찾아드려요.</p>
       <p class="name-note"><b>Gene</b>(유전자) + <b>Trimmer</b>(다듬는 도구)</p>
+      <p class="claim"><span class="nb"><span class="big">150번</span> 복사·붙여넣기를</span> <span class="nb">한 번으로</span> 줄이는 프로그램입니다.</p>
+      <p class="claim-note">한 회차 스크리닝 최소 규모 50개 × 프로그램 3개 왕복 = 150번 기준</p>
       <p class="lede">
         저는 지난 학기 실험 수업에서 미생물 유전자 서열 파일(ab1) 하나를 동정하는 과정에서
         서열을 일일이 자르고 프로그램 세 개를 오가야 했어요. <strong>그래서
@@ -943,9 +977,10 @@
       <h2>세균 종류를 알아내려면, 원래 하루 종일 걸려요</h2>
       <p class="body-copy">
         유전자를 읽어서 파일 하나하나 눈으로 확인하고, 자르고, 짝 맞추고,
-        사이트에 복사 붙여넣기까지 — 샘플이 50개, 100개면 이것만 붙잡고
-        있어야 해요. <strong>젠트리머는 이 과정을 자동화하고, 확신이 안 서는
-        부분만 사람에게 넘겨요.</strong>
+        사이트에 복사 붙여넣기까지 — 한 회차 스크리닝이 보통 샘플 50~150개인데,
+        적게 잡아 50개만 해도 프로그램 세 개를 오가며 복사·붙여넣기만 150번이에요.
+        <strong>젠트리머는 이 과정을 자동화하고, 확신이 안 서는 부분만 사람에게
+        넘겨요.</strong>
       </p>
     </div>
 
