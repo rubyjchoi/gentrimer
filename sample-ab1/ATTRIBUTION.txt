@@ -18,3 +18,4 @@ libraries from Sanger sequencing data." Bioinformatics 40(7):btae448,
 
 라이선스: GPL (>= 2) — isolateR 패키지 전체에 적용되는 라이선스를
 그대로 따른다. 원저작자·출처를 명시하고 재배포한다.
+전문: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
